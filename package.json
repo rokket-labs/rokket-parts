@@ -39,6 +39,6 @@
     "build:storybook": "build-storybook",
     "build": "webpack --color --progress --mode production",
     "check-types": "tsc",
-    "prepublish": "npm run build",
+    "prepublish": "npm run build"
   }
 }
