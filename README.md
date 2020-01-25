@@ -25,7 +25,7 @@ This library contains components that allow programming interfaces quickly and w
 
 1. First you have to clone the repository
 ```
-git clone @rokket/rokket-parts [your-folder-name]
+git clone https://github.com/rokket-labs/rokket-parts.git [your-folder-name]
 ```
 2. Then, install all the dependencies
 ```
@@ -36,7 +36,7 @@ npm install
 npm run start:storybook
 ```
 
-***Note:***  Before uploading any code, please follow our [Contribution Guidelines]([https://roylee0704.github.io/react-flexbox-grid/](https://roylee0704.github.io/react-flexbox-grid/)) 
+***Note:***  Before uploading any code, please follow our [Contribution Guidelines](https://github.com/rokket-labs/rokket-parts/blob/master/CONTRIBUTING.MD) 
 
 
 ### TODO:
@@ -51,7 +51,8 @@ npm run start:storybook
 
 
 ## Made with:
-* [React Flexbox Grid]([https://roylee0704.github.io/react-flexbox-grid/](https://roylee0704.github.io/react-flexbox-grid/)) 
+* [React Flexbox Grid](https://roylee0704.github.io/react-flexbox-grid) 
+
 
 
 ## Autor
