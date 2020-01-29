@@ -8,13 +8,13 @@ Rokketlabs base React component for fast frontend development.
 Using npm:
 
 ```
-npm install --save rokket-parts
+npm install --save @rokketlabs/rokket-parts
 ```
 
 Using yarn:
 
 ```
-yarn add rokket-parts
+yarn add @rokketlabs/rokket-parts
 ```
 
 ### Usage
