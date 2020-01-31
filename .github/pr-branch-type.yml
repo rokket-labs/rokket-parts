@@ -1,5 +1,5 @@
 body:
   patterns:
-    - '/(?<=\[)x?(?=\])/s'
+    - '/(?<=\[)x(?=\])/s'
   error: You must indicate your pull request type
 version: 1
