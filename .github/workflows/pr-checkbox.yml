@@ -1,4 +1,4 @@
-name: PR Checkbox
+name: PR indicates its type
 on:
   pull_request:
     types: ['opened','edited','reopened','synchronize','review_requested','review_request_removed','assigned','unassigned','labeled','unlabeled']
