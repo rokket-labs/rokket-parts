@@ -1,5 +1,5 @@
 body:
   patterns:
-    - '^.{20}'
+    - '\b[x]\b'
   error: You must indicate your pull request type
 version: 1
