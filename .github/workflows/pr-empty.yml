@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: innerspacetrainings/Prace.js@master
         with:
-          configuration-path: .github/pr-title.yml
+          configuration-path: .github/pr-empty.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
