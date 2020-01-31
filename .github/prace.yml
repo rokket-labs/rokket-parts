@@ -1,0 +1,11 @@
+title:
+  patterns:
+    - '[\w\s]+'
+  error: Your tittle cannot be empty
+body:
+  patterns:
+    - '[\w\s]+'
+    - '(?<=\[).x?(?=\])'
+    - '(?<=behavior\?).*(?=## W)'
+  error: The body is incorrect please complete the PR template
+version: 1
