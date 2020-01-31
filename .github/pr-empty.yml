@@ -1,6 +1,6 @@
 title:
   patterns:
-    - '^.{20}'
+    - '/^.{20}/s'
   error: 'The title must be 20 characters or more'
 body:
   patterns:
