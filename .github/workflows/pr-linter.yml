@@ -12,4 +12,4 @@ jobs:
         with:
           configuration-path: .github/prace.yml
         env:
-          GITHUB_TOKEN: asd
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
