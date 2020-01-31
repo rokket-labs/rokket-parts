@@ -1,0 +1,9 @@
+title:
+  patterns:
+    - '^.{20}'
+  error: 'The title must be 20 characters or more'
+body:
+  patterns:
+    - '[\w\s]+'
+  error: 'The body cannot be empty'
+version: 1
