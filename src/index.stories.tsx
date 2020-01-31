@@ -5,5 +5,5 @@ import { Navbar } from './components/Navbar'
 export default { title: 'Navbar' }
 
 export const simple: React.FunctionComponent = () => {
-  return <Navbar bgColor='red' logoContent={<span>gola</span>} />
+  return <Navbar bgColor='purple' logoContent={<span>gola</span>} />
 }
