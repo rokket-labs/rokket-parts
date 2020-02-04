@@ -4,6 +4,6 @@ title:
   error: The title must be 20 characters or more
 body:
   patterns:
-    - '\b[x]\b'
-  error: You must indicate your pull request type
+    - '\[x\](.|\s)*https:\/\/app.clickup.com'
+  error: You must indicate your pull request type or set clickup link task
 version: 1
