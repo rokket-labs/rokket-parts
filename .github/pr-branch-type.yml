@@ -1,5 +1,0 @@
-body:
-  patterns:
-    - '^.{20}'
-  error: You must indicate your pull request type
-version: 1
