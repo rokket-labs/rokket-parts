@@ -1,0 +1,9 @@
+title:
+  patterns:
+    - '^.{20}'
+  error: The title must be 20 characters or more
+body:
+  patterns:
+    - '\b[x]\b'
+  error: You must indicate your pull request type
+version: 1

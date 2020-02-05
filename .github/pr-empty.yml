@@ -1,5 +1,0 @@
-title:
-  patterns:
-    - '/^.{20}/s'
-  error: The title must be 20 characters or more
-version: 1

@@ -36,7 +36,7 @@
   },
   "scripts": {
     "start:storybook": "start-storybook -p 6006",
-    "build:storybook": "build-storybook",
+    "build:storybook": "build-storybook -o docs",
     "build": "webpack --color --progress --mode production",
     "check-types": "tsc",
     "prepublish": "npm run build"
