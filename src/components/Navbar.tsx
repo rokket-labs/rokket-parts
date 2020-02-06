@@ -15,25 +15,33 @@ export const Navbar: React.FunctionComponent<NavbarProps> = ({ bgColor, logoCont
   const mainStyle = {
     display: 'flex',
     ...(bgColor && { backgroundColor: bgColor }),
-    ...(height ? { height } : { height: 50 })
   }
 
+  const gridStyle = {
+    maxWidth: 1440,
+    width: '100%'
+
+  }
+
+  const rowStyle = {
+    ...(height ? { height } : { height: 50 })
+
+  }
 
   return (
     <div style={mainStyle}>
-      <Grid style={{ width: '100%' }}>
-        <Row middle="xs">
+      <Grid fluid style={gridStyle}>
+        <Row style={rowStyle} middle="xs">
           <Col xs={3}>
-            logo
-            {/* {logoContent} */}
+            {logoContent}
           </Col>
           <Col xs={6}>
-            sections
-            {/* {sectionContent} */}
+            section
+            {sectionContent}
           </Col>
           <Col xs={3}>
             menu
-            {/* {menuContent} */}
+            {menuContent}
           </Col>
         </Row>
       </Grid>
