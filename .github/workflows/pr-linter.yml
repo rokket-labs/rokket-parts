@@ -8,6 +8,9 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
+      - uses: rokroskar/workflow-run-cleanup-action
+        env:
+          GITHUB_TOKEN: ${{ secret.GITHUB_TOKEN }}
       - uses: innerspacetrainings/Prace.js@master
         with:
           configuration-path: .github/pr-linter.yml
