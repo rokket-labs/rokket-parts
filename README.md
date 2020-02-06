@@ -43,7 +43,7 @@ npm run start:storybook
  - [ ] Grid Components
  - [ ] Text Components
  - [ ] Button Components
- - [ ] Basic Form Fields Components
+ - [ ] Basic Input and Select Form Fields Components
  - [ ] Datatable Components
  - [ ] Cards Components
  - [ ] Public StoryBook
