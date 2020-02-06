@@ -8,7 +8,7 @@ Please check the type of change your PR introduces:
 
 [Clickup Task](paste-here-clickup-task-link)
 
-## What is the current behavior
+## What is the current behavior?
 ## What is the new behavior?
 ## How can your PR break the app?
 ## Other information
