@@ -1,7 +1,5 @@
 name: CI
 on:
-  pull_request:
-    types: ['opened','edited','reopened','synchronize','review_requested','review_request_removed','assigned','unassigned','labeled','unlabeled']
   push: []
 jobs:
   cleanup-runs:
